@@ -1,0 +1,39 @@
+.hero{
+    display: flex;
+    align-items: center;
+    max-width: 1280px;
+    height: calc(100vh - 96px);
+}
+
+.hero-content{
+    margin-left:120px;
+    display: flex;
+    flex-direction: column;
+    gap:18px;
+}
+
+.hero-content h1{
+    font-weight: 800;
+    font-size: 88px;
+    line-height: 80px;
+}
+
+.hero-content p{
+    color:var(--gray);
+    margin: 6px 0;
+    max-width: 400px;
+}
+
+.hero-btn{
+    display: flex;
+    gap: 10px;
+}
+
+.hero-btn button{
+    border: 2px solid var(--red);
+}
+
+.hero-btn button:last-child{
+    background-color: transparent;
+    color:var(--red);
+}
